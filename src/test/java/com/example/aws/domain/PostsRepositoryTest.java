@@ -40,6 +40,8 @@ public class PostsRepositoryTest {
                         .author("jojoldu@gmail.com")
                         .build());
 
+        //
+
         //when
         List<Posts> postsList = postsRepository.findAll();
 
